@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.chd.mapper.AlterAccountRecordMapper" >
+  <resultMap id="BaseResultMap" type="com.chd.chat.pojo.AlterAccountRecord" >
+    <id column="user_id" property="userId" jdbcType="VARCHAR" />
+    <result column="alter_time" property="alterTime" jdbcType="VARCHAR" />
+  </resultMap>
+  
+</mapper>
